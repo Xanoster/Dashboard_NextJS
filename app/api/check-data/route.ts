@@ -1,4 +1,3 @@
-import { sql } from '@vercel/postgres';
 import postgres from 'postgres';
 
 const db = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
